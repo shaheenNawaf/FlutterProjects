@@ -1,8 +1,9 @@
-import 'package:aladwani_uimidterms/firstscreen.dart';
-import 'package:aladwani_uimidterms/homescreen.dart';
-import 'package:aladwani_uimidterms/signin.dart';
-import 'package:aladwani_uimidterms/signup.dart';
 import 'package:flutter/material.dart';
+import 'pages/firstscreen.dart';
+import 'pages/homescreen.dart';
+import 'pages/signin.dart';
+import 'pages/signup.dart';
+import 'services/fetchapi.dart';
 
 void main() => runApp(const MyApp());
 
@@ -23,6 +24,8 @@ class MyApp extends StatelessWidget {
         '/signup': (context) => const SignUp(),
         '/homescreen': (context) => const HomeScreen(),
       },
+
+
     );
   }
 }
