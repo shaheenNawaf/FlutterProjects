@@ -120,6 +120,7 @@ class SignUp extends StatelessWidget {
                       ElevatedButton(
                         onPressed: () {
                           Navigator.pushNamed(context, '/homescreen');
+                          Navigator.pop(context);
                         },
                         style: ElevatedButton.styleFrom(
                           backgroundColor: Colors.blue[900],

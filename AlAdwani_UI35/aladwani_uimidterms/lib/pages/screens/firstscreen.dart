@@ -61,7 +61,7 @@ class FirstScreen extends StatelessWidget {
             ElevatedButton(
               onPressed: () {
                 //Google Sign-in kunuhay
-                Navigator.pushNamed(context, '/signin');
+                Navigator.popAndPushNamed(context, '/signin');
               },
               style: ElevatedButton.styleFrom(
                 backgroundColor: const Color.fromARGB(255, 255, 255, 255), // Button background color
